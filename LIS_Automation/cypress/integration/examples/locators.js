@@ -1,10 +1,11 @@
 const locators = {
     loginPage: {
         Url : "https://demo7.integral-lis.com/login",
-        usernameInput:"#mat-input-1",
-        passwordInput: '#mat-input-2',     
+        usernameInput: 'input[name="username"]',
+        passwordInput: 'input[name = "password"]',     
         loginButton: '#button_login_login',
-        home_page: "https://demo7.integral-lis.com/gateway/online-portal/application/home"
+        home_page_LIS: '.mat-menu-trigger.disabled-click',
+        login_error_message: '.error.login-card-item.pad-bottom.ng-star-inserted'
         
     },
     permits:{
